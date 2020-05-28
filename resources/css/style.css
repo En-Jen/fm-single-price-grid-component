@@ -1,0 +1,135 @@
+/* ----------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    min-height: 100vh;
+    padding: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----------------------------------------- */
+/* MAIN */
+/* ----------------------------------------- */
+
+main {
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    max-width: 650px;
+    overflow: hidden;
+}
+
+h1 {
+    color: #2ab2af;
+    font-size: 150%;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 110%;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 150%;
+}
+
+li {
+    list-style: none;
+    font-size: 90%;
+    line-height: 150%;
+}
+
+.top,
+.left,
+.right {
+    padding: 40px;
+}
+
+/* ----------------------------------------- */
+/* TOP SECTION */
+/* ----------------------------------------- */
+
+.top-offer {
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 15px;
+}
+
+.top-details {
+    color: hsl(218, 22%, 67%);
+}
+
+/* ----------------------------------------- */
+/* LEFT SECTION */
+/* ----------------------------------------- */
+
+.left {
+    background-color: hsl(179, 62%, 43%)
+}
+
+.price {
+    color: hsl(179, 61%, 66%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+.dollars {
+    color: hsl(0, 0%, 100%);
+    font-size: 200%;
+    margin-right: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 15px 65px;
+    background-color: #c0df34;
+    border-radius: 4px;
+    color: #fbfdf3;
+    margin-top: 35px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    justify-content: center;
+}
+
+/* ----------------------------------------- */
+/* RIGHT SECTION */
+/* ----------------------------------------- */
+
+.right {
+    background-color: hsla(179, 62%, 43%, 0.8);
+}
+
+/* ----------------------------------------- */
+/* MEDIA QUERY */
+/* ----------------------------------------- */
+
+@media only screen and (min-width: 500px) {
+    .bottom {
+        display: flex;
+    }
+
+    .bottom > div {
+        width: 50%;
+    }
+}
